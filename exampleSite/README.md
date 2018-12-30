@@ -1,5 +1,5 @@
-# Example Site for Hugo Initio Theme
+# Example Site for Hugo Toast Theme
 
-Example Site for Hugo Initio Theme
+Example Site for Hugo Toast Theme
 
-https://github.com/miguelsimoni/hugo-initio
+https://github.com/aymericgerardin/hugo-toast
