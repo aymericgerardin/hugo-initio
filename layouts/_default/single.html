@@ -5,14 +5,18 @@
 	<div class="container">
 
 		<div class="row topspace">
-			<div class="col-sm-8 col-sm-offset-2">
+			<div class="col-sm-12">
 
- 				<article class="post">
+ 				<article class="post">	
 					<header class="entry-header">
+					{{ if .Params.showthedate }}
  						<div class="entry-meta">
  							<span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
- 						</div>
+						</div>
+					{{end}}
+					{{ if .Params.showthetitle }}
  						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
+					{{end}}
 					</header>
 					<div class="entry-content">
 						{{ .Content }}
@@ -23,7 +27,7 @@
 		</div> <!-- /row post  -->
 
         <div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
+			<div class="col-sm-12">
 
 				<div id="share">
                     {{ if .Params.Share }}
@@ -35,7 +39,7 @@
 		<div class="clearfix"></div>
 
 		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
+			<div class="col-sm-12">
 
 				<div id="comments">
                     {{ if .Params.Comments }}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Toast club</title>
+    <link>https://aymericgerardin.github.io/hugo-toast-site/</link>
+    <description>Recent content on My Toast club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 28 Dec 2018 22:05:02 +0100</lastBuildDate>
+    
+	<atom:link href="https://aymericgerardin.github.io/hugo-toast-site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Club</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/club/</link>
+      <pubDate>Fri, 28 Dec 2018 22:05:02 +0100</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/club/</guid>
+      <description>A club&#39;s evening A Toastmasters meeting has 4 parts:
+ Improvisation: We start each evening with table topics. Table Topics® is a long-standing Toastmasters tradition intended to help members develop their ability to organize their thoughts quickly and respond to an impromptu question or topic. Prepared Speech: Then we move forward with the speeches prepared by our memebers. Preparing for a speech is one of the best ways to ensure you give an effective presentation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/footer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Come as guest</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/where/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/where/</guid>
+      <description>You can attend free of charge the toastmasters meetings as a guest.</description>
+    </item>
+    
+    <item>
+      <title>Improvisation</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/service/service2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/service/service2/</guid>
+      <description>&amp;ldquo;What do you think about? &amp;ldquo; Answer such question with confidence and method!</description>
+    </item>
+    
+    <item>
+      <title>Leadership</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/service/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/service/service3/</guid>
+      <description>Master of ceremony, Club&amp;rsquo;s president&amp;hellip; Take role and develop your leadership skills!</description>
+    </item>
+    
+    <item>
+      <title>Present. Convince. Inspire.</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/subheader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/subheader/</guid>
+      <description>My toast offers a place to develop your public speaking skills. Our Club uses the toastmasters method Toastmasters International, with more than 350 000 members. Toastmasters International helped millions of people to be confident in front of an audience.</description>
+    </item>
+    
+    <item>
+      <title>Speech</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/service/service1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/service/service1/</guid>
+      <description>On stage, time to shine ! Learn the technics to inspire your public</description>
+    </item>
+    
+  </channel>
+</rss>

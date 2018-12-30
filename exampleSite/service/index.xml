@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on My Toast club</title>
+    <link>https://aymericgerardin.github.io/hugo-toast-site/service/</link>
+    <description>Recent content in Services on My Toast club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://aymericgerardin.github.io/hugo-toast-site/service/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improvisation</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/service/service2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/service/service2/</guid>
+      <description>&amp;ldquo;What do you think about? &amp;ldquo; Answer such question with confidence and method!</description>
+    </item>
+    
+    <item>
+      <title>Leadership</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/service/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/service/service3/</guid>
+      <description>Master of ceremony, Club&amp;rsquo;s president&amp;hellip; Take role and develop your leadership skills!</description>
+    </item>
+    
+    <item>
+      <title>Speech</title>
+      <link>https://aymericgerardin.github.io/hugo-toast-site/service/service1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aymericgerardin.github.io/hugo-toast-site/service/service1/</guid>
+      <description>On stage, time to shine ! Learn the technics to inspire your public</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,33 +1,26 @@
-# Initio theme for Hugo
+# Toast theme for Hugo
 
-[Hugo-Initio](https://miguelsimoni.github.io/hugo-initio-site/) is ported from the [Initio](http://www.gettemplate.com/info/initio/) template by [GetTemplate.com](http://www.gettemplate.com/) for [Hugo](https://gohugo.io/).
-
-![screenshot](https://raw.githubusercontent.com/miguelsimoni/hugo-initio/master/images/tn.png)
+[Hugo-Toast](https://aymericgerardin.github.io/hugo-toast-site/) is adapted from the [Hugo-initio](https://miguelsimoni.github.io/hugo-initio-site/) theme.
 
 ### Original Template Info
 
-**Licensing:** Creative Commons (for more options, go to the [original template site](http://www.gettemplate.com/info/initio/))  
-**Released:** Feb 21, 2014  
-**Last Updated:** Feb 21, 2014  
-**Version:** 1.0  
-**Bootstrap:** 3.3.4 or higher  
-**Libraries:** jQuery  
-**Designer:** Sergey Pozhilov  
+**Licensing:** MIT (for more options, go to the [original template site](https://miguelsimoni.github.io/hugo-initio-site/))  
+**Designer:** Miguel Simoni  
 
 ## Installation
 
 ```
 $ cd /<your-hugo-site-directory>
-$ git submodule add https://github.com/miguelsimoni/hugo-initio.git themes/hugo-initio
+$ git submodule add https://github.com/aymericgerardin/hugo-toast.git themes/hugo-toast
 ```
 
 More info: [hugo setup guide](https://gohugo.io/overview/installing/)
 
 ## Configuration
 
-[Example Site](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite)
+[Example Site](https://github.com/aymericgerardin/hugo-toast/tree/master/exampleSite)
 
-[config.toml](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite/config.toml)
+[config.toml](https://github.com/aymericgerardin/hugo-toast/tree/master/exampleSite/config.toml)
 
 ### Sections
 
@@ -35,14 +28,13 @@ More info: [hugo setup guide](https://gohugo.io/overview/installing/)
 ```toml
 showSubheader = true
 showServices = true
-showRecentWorks = true
-showDownload = true
-showClients = true
+showRecentWorks = false
+showDownload = false
+showClients = false
 
 footerEnableContact = true
 footerEnableFollowme = true
-footerEnableTextWidget = false
-footerEnableFormWidget = false
+footerEnableMailChimpWidget = true
 ```
 ### Social Networks Icons
 
@@ -58,7 +50,7 @@ You can add as many social networks as you want in the params.social array follo
   network = "facebook"
 ```
 
-See the whole configuration in the [config.toml](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite/config.toml) file.
+See the whole configuration in the [config.toml](https://github.com/aymericgerardin/hugo-toast/tree/master/exampleSite/config.toml) file.
 
 ### Comments
 
@@ -85,10 +77,10 @@ Disable the Google Analytics by leaving `params.google.analytics.trackerID` empt
 In order to see your site in action, you can run Hugo's built-in local server.
 
 ```
-$ hugo server
+$ hugo server -D
 ```
 
-Now enter [`http://localhost:1313/hugo-initio-site/`](http://localhost:1313/hugo-initio-site/) in the address bar of your browser.
+Now enter [`http://localhost:1313/`](http://localhost:1313/) in the address bar of your browser.
 
 ## Deployment
 
@@ -100,12 +92,12 @@ Now enter [`http://localhost:1313/hugo-initio-site/`](http://localhost:1313/hugo
 - Found a bug?
 - Got an idea for a new feature?
 
-Let me know it using the [issue tracker](https://github.com/miguelsimoni/hugo-initio/issues).
-Or make it directly: [pull request](https://github.com/miguelsimoni/hugo-initio/pulls).
+Let me know it using the [issue tracker](https://github.com/aymericgerardin/hugo-toast/issues).
+Or make it directly: [pull request](https://github.com/aymericgerardin/hugo-toast/pulls).
 
 ## License
 
-This port is released under the MIT License. Check the [original theme license](http://www.gettemplate.com/info/initio/) for additional licensing information.
+This port is released under the MIT License. 
 
 ## Thanks
 

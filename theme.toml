@@ -1,18 +1,18 @@
-name = "Hugo Initio"
+name = "Hugo Toast"
 license = "MIT"
-licenselink = "https://github.com/miguelsimoni/hugo-initio/blob/master/LICENSE.md"
-description = ""
-homepage = "https://miguelsimoni.github.io/hugo-initio-site/"
+licenselink = ""
+description = "Hugo theme for Toastmaster's club like site"
+homepage = ""
 tags = ["blog","responsive","personal","google analytics","portfolio","disqus","bootstrap","font awesome","projects","creative","landing page","product","white","share this"]
 features = ["blog","responsive","personal","google analytics","portfolio","disqus","bootstrap","font awesome","projects","creative","landing page","product","white","share this"]
 min_version = "0.1"
 
 [author]
-  name = "Miguel Simoni"
-  homepage = "https://miguelsimoni.github.io/"
+  name = "Aymeric Gerardin"
+  homepage = "https://aymericgerardin.github.io/hugo-toast-site/"
 
 [original]
-  name = "Initio"
-  author = "Sergey Pozhilov"
-  homepage = "http://www.gettemplate.com/info/initio/"
-  repo = "https://github.com/pozh/Initio"
+  name = "Hugo-initio"
+  author = "Miguel Simoni"
+  homepage = "https://miguelsimoni.github.io/hugo-initio-site/"
+  repo = "https://github.com/miguelsimoni/hugo-initio.git"
