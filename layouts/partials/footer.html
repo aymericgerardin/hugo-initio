@@ -1,13 +1,17 @@
-{{ with .Site.GetPage "/footer.md" }}
+
 <footer id="footer">
 	<div class="container">
 		<div class="row">
 		
 			{{ if .Site.Params.footerEnableMailChimpWidget }}
 			<div class="col-md-4 widget">
+			{{ with .Site.GetPage "/footer.md" }}
 				<h3 class="widget-title">{{ .Params.titleNewsletter }}</h3>
+			{{ end }}
 				<div class="widget-body">
-					{{ partial "mailchimp.html" . }}
+				{{ with .Site.GetPage "mailchimp.md" }}
+					{{ .Content }}
+				{{ end }}
 				</div>
 			</div>
 			{{ end }}
@@ -15,7 +19,9 @@
  
 			{{ if .Site.Params.footerEnableFollowme }}
 			<div class="col-md-4 widget">
+			{{ with .Site.GetPage "/footer.md" }}
 				<h3 class="widget-title">{{ .Params.titleFollow }}</h3>
+			{{ end }}
 				<div class="widget-body">
 					<p class="follow-me-icons">
                         {{ range .Site.Params.social }}
@@ -30,7 +36,9 @@
 
 			{{ if .Site.Params.footerEnableContact }}
 			<div class="col-md-4 widget">
+			{{ with .Site.GetPage "/footer.md" }}
 				<h3 class="widget-title">{{ .Params.titleContact }}</h3>
+			{{ end }}
 				<div class="widget-body">
 					<p>{{ if .Site.Params.phone }}{{ .Site.Params.phone }}<br>{{ end }}
 					{{ if .Site.Params.email }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>{{ end }}
@@ -83,4 +91,3 @@
 {{ end -}}
 </body>
 </html>
-{{ end }}
