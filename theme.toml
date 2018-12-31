@@ -1,7 +1,7 @@
 name = "Hugo Toast"
 license = "MIT"
 licenselink = ""
-description = "Hugo theme for Toastmaster's club like site"
+description = "Hugo theme for Toastmaster's club site"
 homepage = ""
 tags = ["blog","responsive","personal","google analytics","portfolio","disqus","bootstrap","font awesome","projects","creative","landing page","product","white","share this"]
 features = ["blog","responsive","personal","google analytics","portfolio","disqus","bootstrap","font awesome","projects","creative","landing page","product","white","share this"]

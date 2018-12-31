@@ -1,6 +1,6 @@
 # Toast theme for Hugo
 
-[Hugo-Toast](https://aymericgerardin.github.io/hugo-toast-site/) is adapted from the [Hugo-initio](https://miguelsimoni.github.io/hugo-initio-site/) theme.
+[Hugo-Toast](https://github.com/aymericgerardin/hugo-toast) is adapted from the [Hugo-initio](https://miguelsimoni.github.io/hugo-initio-site/) theme.
 
 ### Original Template Info
 
